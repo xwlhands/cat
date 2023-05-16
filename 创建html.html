@@ -1,3 +1,70 @@
-html
-html
-333
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			.header{
+				width: 100%;
+				background: green;
+				display: flex;
+				flex-flow: row nowrap;
+			}
+			.cell-1{
+				flex-grow: 1;
+			}
+			.cell-2{
+				flex-grow:2;
+			}
+			.cell-3{
+				flex-grow:3;
+			}
+			.box-yellow{
+				background: yellow;
+				margin: 5px;
+				min-height: 50px;
+				color: blue;
+				text-align: center;
+				line-height: 50px;
+			}
+			section{
+				width: 100%;
+				background: fuchsia;
+				display: flex;
+				flex-flow: row nowrap;
+			}
+			.box-skyblue{
+				background: khaki;
+				margin: 5px;
+				min-height: 400px;
+				color: blue;
+				text-align: center;
+				line-height: 400px;
+			}
+			footer{
+				background: green;
+				width: 100%;
+				
+				display: flex;
+				flex-flow: row nowrap;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="cell-1 box-yellow">网站标识logo</div>
+		</div>
+		
+		<section class="content">
+			<div class="box-skyblue cell-1">导航栏</div>
+			<div class="box-skyblue cell-3">中心内容</div>
+			<div class="box-skyblue cell-1">引用栏</div>
+		</section>
+		
+		<footer>
+			<div class="cell-1 box-yellow">
+				mowaijoiajgoiajgoaiw
+			</div>
+		</footer>
+	</body>
+</html>
